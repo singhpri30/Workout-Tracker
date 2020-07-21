@@ -22,10 +22,14 @@ const workoutSchema = new Schema({
     duration: {
         type: Number,
         required: "Enter duration of workout"
+    },
+    distance: {
+        type: Number,
+        required: "Enter duration of workout"
     }
 });
 
 
-const Workout = mongoose.model("Transaction", workoutSchema);
+const Workout = mongoose.model("Workout", workoutSchema);
 
 module.exports = Workout;
