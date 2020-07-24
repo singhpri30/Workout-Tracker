@@ -7,7 +7,7 @@
 * [Deployed Project Links](#deployed-project-links)
 
 ## Project Description: 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create a Mongo database with a Mongoose schema and handle routes with Express.
 
 
 ## Project Features:
@@ -16,13 +16,13 @@ For this assignment, you'll create a workout tracker. You have already been prov
 * Select type of exercise from the dropdown.
 * Enter exercise details
 * Click on *Add Exercise*, to add the exercise.
-* Click on *Fitness Tracker* link on navigation bar to view last workout details.
+* Click on *Fitness Tracker* link on the navigation bar to view last workout details.
 * Click on *Continue Workout* button to log multiple exercises in a workout on a given day.
 * Select type of exercise from the dropdown.
 * Enter exercise details.
-* Click on *Complete* button, the user will be redirected to home page.
-* The use can view last workout details.
-* Click on *Dashboard* link on navigation bar to see graphical representation of the exercise data.
+* Click on *Complete* button, the user will be redirected to the home page.
+* The user can view the last workout details.
+* Click on *Dashboard* link on the navigation bar to view the graphical representation of the exercise data.
 
 
 ## Technologies
@@ -40,7 +40,7 @@ For this assignment, you'll create a workout tracker. You have already been prov
 
 ## Deployed Project Links
 
-GitHud Repository Link
+GitHub Repository Link
 
 *https://github.com/singhpri30/Workout-Tracker*
 
