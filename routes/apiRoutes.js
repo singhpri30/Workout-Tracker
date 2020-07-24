@@ -4,8 +4,8 @@ const db = require("../models");
 
 router.get("/workouts", (req, res) => {
     db.Workout.find({}).then(data => {
-        console.log(data);
 
+        //this is a workaround for virtual property used in workout model
         // const lastExercise = data[data.length - 1].toJSON();
         // lastExercise.totalDuration = lastExercise.exercises.reduce((total, exercise) => {
         //     return total + exercise.duration;
