@@ -5,6 +5,15 @@ const db = require("../models");
 router.get("/workouts", (req, res) => {
     db.Workout.find({}).then(data => {
         console.log(data);
+
+        // const lastExercise = data[data.length - 1].toJSON();
+        // lastExercise.totalDuration = lastExercise.exercises.reduce((total, exercise) => {
+        //     return total + exercise.duration;
+        // }, 0)
+        // lastExercise.totalDistance = lastExercise.exercises.reduce((total, exercise) => {
+        //     return total + exercise.distance;
+        // }, 0)
+        // data[data.length - 1] = lastExercise;
         res.json(data);
     }).catch(err => {
         res.status(400).json(err);
@@ -37,7 +46,7 @@ router.put("/workouts/:id", (req, res) => {
         { _id: req.params.id },
         {
             $push: {
-                exercise: req.body
+                exercises: req.body
             }
         }).then(data => {
             console.log(data);
