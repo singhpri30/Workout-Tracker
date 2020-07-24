@@ -1,43 +1,44 @@
 # Project: Workout Tracker
+## Table of Contents
+* [Project Description](#project-description)
+* [Project Features](#project-features)
+* [Technologies](#technologies)
+* [Developer](#developer)
+* [Deployed Project Links](#deployed-project-links)
 
- Description: 
+## Project Description: 
 For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
-## This project has the following features:
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Project Features:
 
-## This project has the following features:
-* An Server JS document
-  * This provides the logic for the client side of the app, in this case, it used the backend through Node JS.
-* Public Folder
-  * Contains client side code
-* Routes Folder
-  * Contains entry points and api calls for both server side and client side code
-* Package.JSON
-  * JSON and NPM packages and dependencies
+* Click on *New Workout* button to add workout details.
+* Select type of exercise from the dropdown.
+* Enter exercise details
+* Click on *Add Exercise*, to add the exercise.
+* Click on *Fitness Tracker* link on navigation bar to view last workout details.
+* Click on *Continue Workout* button to log multiple exercises in a workout on a given day.
+* Select type of exercise from the dropdown.
+* Enter exercise details.
+* Click on *Complete* button, the user will be redirected to home page.
+* The use can view last workout details.
+* Click on *Dashboard* link on navigation bar to see graphical representation of the exercise data.
 
 
-The user should be able to:
+## Technologies
+* HTML
+* CSS
+* jQuery
+* Mongoose
+* Express.js
+* Node.js
 
-  * Add exercises to a previous workout plan.
 
-  * Add new exercises to a new workout plan.
-
-  * View multiple the combined weight of multiple exercises on the `stats` page.
-
-## Install App
-npm install
-
-## Start App
-node server.js
-
-## Developer ##
+## Developer
 
 **Priyanka Singh**
 
-
-### Below are the links of the deployed project: ###
+## Deployed Project Links
 
 GitHud Repository Link
 
